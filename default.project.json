@@ -1,0 +1,53 @@
+{
+  "name": "GPU Mining",
+  "tree": {
+    "$className": "DataModel",
+    "$ignoreUnknownInstances": true,
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "Packages": {
+        "$path": "Packages"
+      },
+
+      "Assets": {
+        "$path": "src/replicatedstorage/Assets"
+      },
+      "Handlers": {
+        "$path": "src/replicatedstorage/Handlers"
+      },
+      "Utils": {
+        "$path": "src/replicatedstorage/Utils"
+      },
+      "Client": {
+        "$path": "src/replicatedstorage/Client.client.lua"
+      },
+      "Configuration": {
+        "$path": "src/replicatedstorage/Configuration"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Classes": {
+        "$path": "src/serverscriptservice/Classes"
+      },
+      "Packages": {
+        "$path": "src/serverscriptservice/Packages"
+      },
+      "Services": {
+        "$path": "src/serverscriptservice/Services"
+      },
+      "Utils": {
+        "$path": "src/serverscriptservice/Utils"
+      },
+      "Server": {
+        "$path": "src/serverscriptservice/Server.server.lua"
+      },
+      "Configuration": {
+        "$path": "src/serverscriptservice/Config"
+      }
+    }
+  }
+}
