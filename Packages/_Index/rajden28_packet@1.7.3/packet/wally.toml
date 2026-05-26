@@ -1,8 +1,0 @@
-[package]
-name = "rajden28/packet"
-version = "1.7.3"
-registry = "https://github.com/UpliftGames/wally-index"
-realm = "shared"
-description = "Created by 5uphi"
-
-[dependencies]
